@@ -1,5 +1,4 @@
 import BarChartUser from "./BarChartUser";
-import LineChartJobPost from "./LineChartJobPost";
 
 const ChartList: React.FC = () => {
   return (

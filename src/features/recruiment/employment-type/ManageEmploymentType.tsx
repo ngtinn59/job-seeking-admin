@@ -297,7 +297,7 @@ const ManageEmploymentType: React.FC = () => {
           pageSize: pageSize,
           showSizeChanger: true,
           pageSizeOptions: ["5", "10", "20", "30"],
-          onShowSizeChange(current, size) {
+          onShowSizeChange(_current, size) {
             setCurrentPage(1);
             setPageSize(size);
           },
