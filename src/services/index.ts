@@ -1,0 +1,17 @@
+export { default as authService } from "./auth/auth-service";
+export { default as cityService } from "./location/city/city-service";
+export { default as countryService } from "./location/country/country-service";
+export { default as districtService } from "./location/district/district-service";
+export { default as seekerService } from "./user/seeker/seeker-service";
+export { default as postJobService } from "./post-job/job/post-job-service";
+export { default as companiesService } from "./company/companies/companies-service";
+export { default as companySizeService } from "./company/company-size/company-size-service";
+export { default as companyTypeService } from "./company/company-type/company-type-service";
+export { default as workplaceService } from "./company/workplace/workplace-service";
+export { default as desiredPositionService } from "./recruitment/desired-position/desired-position-service";
+export { default as educationService } from "./recruitment/education/education-service";
+export { default as experienceService } from "./recruitment/experience/experience-service";
+export { default as languageService } from "./recruitment/language/language-service";
+export { default as professionService } from "./recruitment/profession/profession-service";
+export { default as workTypeService } from "./recruitment/work-type/work-type-service";
+export { default as reportService } from "./report/report-service";
