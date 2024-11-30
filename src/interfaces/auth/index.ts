@@ -4,6 +4,7 @@ export interface IAuthRequest {
 }
 
 export interface IAuthRes {
+  id?: number;
   success?: boolean;
   message?: string;
   name?: string;

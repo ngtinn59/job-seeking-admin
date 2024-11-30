@@ -14,6 +14,7 @@ import { NavLink } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../hooks";
 import { logout } from "../redux/auth";
 import { PRIMARY_COLOR } from "../interfaces/common/constants";
+import { NotifcationIcon } from "../features/notifications/NotificationIcon";
 
 const { Header, Sider } = Layout;
 
@@ -281,6 +282,7 @@ const MainLayout: React.FC = () => {
               />
 
               <div className="relative mr-5 flex cursor-pointer items-center">
+                <NotifcationIcon />
                 <Dropdown
                   menu={{ items }}
                   placement="bottom"
